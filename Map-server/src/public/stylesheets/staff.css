@@ -1,0 +1,130 @@
+/*table*/
+table{
+    margin:auto;
+}
+table, .th, .td {
+    #font-family: arial, sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.td,.th {
+    text-align: center;
+    padding: 8px;
+}
+.td{
+    font-size:75%;
+}
+.th{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/*Reports*/
+.option{
+    margin:0px 10px 10px 10px;
+}
+
+#finalReport{
+    overflow: scroll;
+    margin:20px;
+}
+#reports{
+    margin-bottom: 90px;
+}
+select, label,input,b{
+    margin-bottom:10px;
+}
+
+#app-content{
+    margin:10px 0px 50px 0px;
+    overflow: scroll;
+}
+.box{
+}
+.relation{
+    margin: 0px 0px;
+    border-radius: 20% 30% 0 0%;
+    font-size:125%;
+    color:white;
+    padding:5px;
+    background-color:var(--UTEP-blue);
+}
+.action{
+    margin: 0px 0px;
+    color:white;
+    padding:5px;
+    border-right:1px solid var(--UTEP-light);
+}
+.relation:hover , .action:hover{
+    cursor:pointer;
+}
+.relation.select,.action.select{
+    background-color:var(--UTEP-orange);
+}
+.relation:hover:not(.select),.action:hover:not(.select){
+    background-color:var(--UTEP-background);
+    color:black;
+}
+
+#manage-box{
+    margin-bottom:50px;
+    width: 80%;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+#manage-box-row1{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+#manage-box-row2{
+    background-color:var(--UTEP-blue);
+    border: 2px solid black;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+#manage-box-row3{
+    border: 2px solid black;
+    padding:10px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    overflow:scroll;
+}
+/* Set a style for all buttons */
+.button_signForm {
+    #background-color: #4CAF50;
+    color: white;
+    background-color: var(--UTEP-orange);
+    padding: .875em 1.25em;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.button_signForm:hover {
+    opacity:1;
+}
+.content{
+    width:80%;
+}
+.signupbtn{
+    width:40%;
+}
+
+@media only screen and (max-width: 600px) {
+    nav li{
+        font-size:80%;
+    }
+    select, label{
+        font-size:80%;
+    }
+}

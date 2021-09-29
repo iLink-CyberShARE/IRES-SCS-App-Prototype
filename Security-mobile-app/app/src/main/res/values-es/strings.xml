@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IRES 1.0</string>
+    <!--ü, é, á, í, ó, ú, ñ, Ñ, ¿, ¡ -->
+
+    <string-array name="categories">
+        <item>Criminal</item>
+        <item>Sospechosa</item>
+        <item>Ambiente</item>
+        <item>Infrastructura</item>
+        <item>Movilidad</item>
+    </string-array>
+
+    <string-array name="filter_categories">
+        <item>Ver Todo</item>
+        <item>Ver Actividad Criminal</item>
+        <item>Ver Actividad Sospechosa</item>
+        <item>Ver Medio Ambiente</item>
+        <item>Ver Infrastructura</item>
+        <item>Ver Movilidad</item>
+    </string-array>
+
+    <string-array name="crime">
+        <item>Hurto</item>
+        <item>Acoso</item>
+        <item>Asalto</item>
+        <item>Robo</item>
+        <item>Homicidio</item>
+        <item>Robo de Auto</item>
+        <item>Destrucción de Propiedad</item>
+        <item>Secuestro</item>
+        <item>Atropello</item>
+    </string-array>
+
+    <string-array name="suspicious">
+        <item>Drogas/Narcóticos</item>
+        <item>Vehículo estacionado en una ubicación extraña</item>
+        <item>Paquete/Equipaje desatendido</item>
+        <item>Alguien presta atención inusual a las instalaciones</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="environment">
+        <item>Aire</item>
+        <item>Suelo</item>
+        <item>Ruido</item>
+        <item>Fuego</item>
+        <item>Agua</item>
+        <item>Animales</item>
+    </string-array>
+
+    <string-array name="infrastructure">
+        <item>Calle/Banqueta</item>
+        <item>Semáforo</item>
+        <item>Alcantarilla</item>
+        <item>Sistema Eléctrico</item>
+        <item>Arboles Frondosos</item>
+        <item>Graffiti</item>
+        <item>Fuga de Agua</item>
+        <item>Basura</item>
+        <item>Inundación</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="mobility">
+        <item>Tráfico</item>
+        <item>Accidente</item>
+        <item>Semáforo</item>
+        <item>Estacionamiento</item>
+        <item>Bloqueos</item>
+        <item>Otro</item>
+    </string-array>
+
+    <!--Navigation-->
+    <string name="help"><u>Ayuda</u></string>
+    <string name="list"><u>Lista</u></string>
+    <string name="reports"><u>Reportes</u></string>
+    <string name="map"><u>Mapa</u></string>
+    <string name="add"><u>Agregar</u></string>
+
+    <!--Options Menu-->
+    <string name="refresh"><u>Actualizar</u></string>
+    <string name="create"><u>Crear reporte</u></string>
+    <string name="about"><u>Acerca</u></string>
+    <string name="exit"><u>Salir</u></string>
+
+    <!--Alert Fragment-->
+    <string name="press"><u>Presione una vez</u></string>
+    <string name="to_send"><u>para enviar una alerta de SOS</u></string>
+    <string name="here"><u>Tu estás aquí: </u></string>
+    <string name="alert_msg">Su alerta fue enviada</string>
+
+    <!--Reports list-->
+    <string name="date">Fecha:</string>
+    <string name="incident">Incidente:</string>
+    <string name="location">Ubicación:</string>
+    <string name="description">Descripción:</string>
+    <string name="content_description">Reporte de Imagen</string>
+
+    <!--Add Report-->
+    <string name="selected"><u>Tu seleccionaste: </u></string>
+    <string name="thanks"><u>Gracias por enviar tu reporte</u></string>
+    <string name="criminal_category"><u>Categoría criminal</u></string>
+    <string name="suspicious_category"><u>Categoría de actividad sospechosa</u></string>
+    <string name="infrastructure_category"><u>Categoría de infrastructura</u></string>
+    <string name="environment_category"><u>Categoría de medio ambiente</u></string>
+    <string name="mobility_category"><u>Categoría de movilidad</u></string>
+
+    <string name="select_category">Selecciona una categoría para tu reporte</string>
+    <string name="criminal_activity">ACTIVIDAD CRIMINAL</string>
+    <string name="suspicious_activity">ACTIVIDAD SOSPECHOSA</string>
+    <string name="infrastructure">INFRASTRUCTURA</string>
+    <string name="environment">MEDIO AMBIENTE</string>
+    <string name="mobility">MOVILIDAD</string>
+    <string name="add_picture">Agregar foto al reporte</string>
+    <string name="gallery">\nG\na\nl\ne\nr\ní\na\n</string>
+    <string name="camera">\nC\ná\nm\na\nr\na\n</string>
+    <string name="select_incident">Selecciona un incidente</string>
+    <string name="provide_description">Escribe una descripción: </string>
+    <string name="description_example">Ejemplo: Hay un carro abandonado desde la semana pasada.</string>
+    <string name="submit">Enviar</string>
+
+    <!--login window-->
+    <string name="create_account"><u>Crear Cuenta</u></string>
+    <string name="student_Id">ID Probador Beta</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="name">Nombre</string>
+    <string name="sId_msg">Debe ingresar un ID</string>
+    <string name="email_msg">Debe ingresar un correo electrónico</string>
+    <string name="name_msg">Debe ingresar un nombre</string>
+    <string name="password_msg">Debe ingresar una contraseña</string>
+    <string name="registration_title">Registrate</string>
+    <string name="registration_description">Por favor rellena todos los campos</string>
+    <string name="registration_negative">Cancelar</string>
+    <string name="registration_positive">Registrar</string>
+    <string name="registration_success">Registración exitosa</string>
+    <string name="registration_unsuccess">Este ID ya existe</string>
+    <string name="login_student">Este ID no existe</string>
+    <string name="login_denied">Permiso de accesso denegado</string>
+    <string name="login_pending">Permiso de acceso pendiente</string>
+    <string name="login_success">¡Bienvenido!</string>
+
+</resources>
+
+    <!--ü, é, á, í, ó, ú, ñ, Ñ, ¿, ¡ -->

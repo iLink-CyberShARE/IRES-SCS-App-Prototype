@@ -1,0 +1,151 @@
+<resources>
+
+    <string name="app_name">IRES 1.0</string>
+
+    <string-array name="categories">
+        <item>Criminal</item>
+        <item>Suspicious</item>
+        <item>Environment</item>
+        <item>Infrastructure</item>
+        <item>Mobility</item>
+    </string-array>
+
+    <string-array name="filter_categories">
+        <item>View all</item>
+        <item>View Criminal Activity</item>
+        <item>View Suspicious Activity</item>
+        <item>View Environment</item>
+        <item>View Infrastructure</item>
+        <item>View Mobility</item>
+    </string-array>
+
+    <string-array name="crime">
+        <item>Theft</item>
+        <item>Harassment</item>
+        <item>Assault</item>
+        <item>Burglary</item>
+        <item>Homicide</item>
+        <item>Auto theft</item>
+        <item>Property destruction</item>
+        <item>Kidnapping</item>
+        <item>Ran over</item>
+    </string-array>
+
+    <string-array name="suspicious">
+        <item>Drugs/Narcotics</item>
+        <item>Vehicle parked at odd location</item>
+        <item>Package/luggage unattended</item>
+        <item>Someone pays unusual attention to facilities</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="environment">
+        <item>Air</item>
+        <item>Soil</item>
+        <item>Noise</item>
+        <item>Fire</item>
+        <item>Water</item>
+        <item>Animals</item>
+    </string-array>
+
+    <string-array name="infrastructure">
+        <item>Street/Sidewalk</item>
+        <item>Traffic Light</item>
+        <item>Sewage</item>
+        <item>Electric System</item>
+        <item>Leafy Trees</item>
+        <item>Graffiti</item>
+        <item>Water Leak</item>
+        <item>Trash</item>
+        <item>Flooding</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="mobility">
+        <item>Traffic</item>
+        <item>Accident</item>
+        <item>Traffic light</item>
+        <item>Parking</item>
+        <item>Blockades</item>
+        <item>Other</item>
+    </string-array>
+
+    <!--Navigation-->
+    <string name="help"><u>Help</u></string>
+    <string name="list"><u>List</u></string>
+    <string name="reports"><u>Reports</u></string>
+    <string name="map"><u>Map</u></string>
+    <string name="add"><u>Add</u></string>
+
+    <!--Options Menu-->
+    <string name="refresh"><u>Refresh</u></string>
+    <string name="create"><u>Create report</u></string>
+    <string name="about"><u>About</u></string>
+    <string name="exit"><u>Exit</u></string>
+
+    <!--Alert Fragment-->
+    <string name="press"><u>PRESS ONCE</u></string>
+    <string name="to_send"><u>to send an SOS alert</u></string>
+    <string name="here"><u>You are here: </u></string>
+    <string name="alert_msg">Your alert was sent</string>
+
+    <!--Reports list-->
+    <string name="date">Date:</string>
+    <string name="incident">Incident:</string>
+    <string name="location">Location:</string>
+    <string name="description">Description:</string>
+    <string name="content_description">Report Imagen</string>
+
+    <!--Add Report-->
+    <string name="selected"><u>You selected: </u></string>
+    <string name="thanks"><u>Thank you for your submission</u></string>
+    <string name="criminal_category"><u>Criminal category</u></string>
+    <string name="suspicious_category"><u>Suspicious category</u></string>
+    <string name="infrastructure_category"><u>Infrastructure category</u></string>
+    <string name="environment_category"><u>Environment category</u></string>
+    <string name="mobility_category"><u>Mobility category</u></string>
+
+    <string name="select_category">Select Category of Your Report</string>
+    <string name="criminal_activity">CRIMINAL ACTIVITY</string>
+    <string name="suspicious_activity">SUSPICIOUS ACTIVITY</string>
+    <string name="infrastructure">INFRASTRUCTURE</string>
+    <string name="environment">ENVIRONMENT</string>
+    <string name="mobility">MOBILITY</string>
+    <string name="add_picture">Add Picture to Report</string>
+    <string name="gallery">\nG\na\nl\nl\ne\nr\ny\n</string>
+    <string name="camera">\nC\na\nm\ne\nr\na\n</string>
+    <string name="select_incident">Select an incident</string>
+    <string name="provide_description">Provide a description:</string>
+    <string name="description_example">e.g. Car abandoned since last week.</string>
+    <string name="submit">Enviar</string>
+
+    <!--login Window-->
+    <string name="create_account"><u>Create Account</u></string>
+    <string name="student_Id">Beta Tester ID</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="sId_msg">ID cannot be empty</string>
+    <string name="email_msg">Email cannot be empty</string>
+    <string name="name_msg">Name cannot be empty</string>
+    <string name="password_msg">Password cannot be empty</string>
+    <string name="registration_title">Sign Up</string>
+    <string name="registration_description">Please fill all fields</string>
+    <string name="registration_negative">Cancel</string>
+    <string name="registration_positive">Register</string>
+    <string name="registration_success">Registration success</string>
+    <string name="registration_unsuccess">ID already exist</string>
+    <string name="login_student">ID do not exist</string>
+    <string name="login_denied">Permission to login is denied</string>
+    <string name="login_pending">Permission to login is pending</string>
+    <string name="login_success">Welcome!</string>
+    <string name="title_activity_full_view_report" translatable="false">fullViewReport</string>
+    <string name="report_summary" translatable="false">Report Summary</string>
+    <string name="hello_first_fragment">hello</string>
+    <string name="next">next</string>
+    <string name="previous">previous</string>
+    <string name="first_fragment_label">first fragment label</string>
+    <string name="second_fragment_label">second fragment</string>
+
+</resources>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>IRES</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="<%=ip_address%>stylesheets/main_style.css" >
+    <link rel="stylesheet" type="text/css" href="<%=ip_address%>stylesheets/staff.css" >
+    <link rel="icon" href="//cdn.utep.edu/images/favicon.ico" type="image/x-icon" />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<%=ip_address%>javascripts/staff.js" id="staff-script" ip_address =<%=ip_address%>></script>
+</head>
+
+<body>
+<div id="header">
+    <div class="utepHeading">
+        <a href="https://www.utep.edu/">
+            <img  alt="UTEP" src="<%=ip_address%>Images/UTEP.png" title="UTEP"/>
+        </a>
+    </div>
+    <div class="collegeHeading">
+        <h1><a href="https://www.utep.edu/engineering/ " id="college-title">Interdisciplinary Research Collaboration for Smart Cities</a></h1>
+    </div>
+</div>
+
+
+<nav class="sticky">
+    <ul>
+        <li><a id="nav-home" class="home-button active nav-button button">Home</a></li>
+    </ul>
+</nav>
+
+<main>
+
+    <div id="manage" >
+        <div id="manage-box" class="box">
+            <div id="manage-box-row1" class="box">
+                <div id="manage-box-row1-item1" class="box relation select">
+                    Security
+                </div>
+            </div>
+            <div id="manage-box-row2" class="box">
+                <div id="manage-box-row2-item1" class="box action select">
+                    Manage Users
+                </div>
+            </div>
+            <div id="manage-box-row3" class="box">
+                <div id="securityUsers" class="content">
+                    <script>
+                        createTable("securityUsers");
+                    </script>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>
